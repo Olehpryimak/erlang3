@@ -1,5 +1,5 @@
 -module(lesson3_task3).
--export([split/2, convert/1, removeStart/2, startsWith/2]).
+-export([split/2]).
 
 split(S, Del) -> clear(split(S, <<>>, [], convert(Del))).
 
